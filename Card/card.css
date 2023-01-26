@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: white;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin:0;
+    padding-top: 10px;
+
+}
+a{
+    text-decoration: none;
+}
+.gellery{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 200px;
+    margin:200px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow:0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22); 
+    transition: 0.4s;
+    background: white;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0;
+    display: block;
+}
+p{
+    text-align: center;
+    color: black;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding-top: 5px;
+
+}
+.fa{
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 3px;
+}
+.checked{
+    color: orange;
+}
+button{
+    border: 1px solid white;
+    background: gray;
+    padding: 15px;
+    font-size: 15px;
+    font-style: inherit;
+    cursor: pointer;
+    width: 100%;
+}
+.buy-1{
+    background-image: linear-gradient(orange, orangered);
+}
+.buy-1:hover{
+    background-image: linear-gradient(red, yellow);
+}
+.buy-2{
+    background-image: linear-gradient(rgb(131, 199, 131),rgb(60, 163, 60));
+}
+.buy-2:hover{
+    background-image: linear-gradient(greenyellow,rgb(105, 136, 57));
+}
+.buy-3{
+    background-image: linear-gradient(rgb(192, 192, 29),rgb(87, 87, 53) );
+}
+.buy-3:hover{
+    background-image: linear-gradient(rgb(245, 245, 12),rgb(241, 241, 109),rgb(238, 238, 11));
+}
+
